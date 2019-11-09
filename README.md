@@ -33,7 +33,7 @@ For new snippets the general steps are
 * [Zip multiple files](#zip-multiple-files)
 
 ### Math
-* [Sum Power Of 2](#SumPowerOf2)
+* [Sum Power Of 2](#Sum-Power-Of-2)
 * [Fibonacci](#fibonacci)
 * [Factorial](#factorial)
 * [Lottery](#lottery)
@@ -228,7 +228,7 @@ For new snippets the general steps are
 
 ```java
     public static int SumPowerOf2(int n) {
-         return (2^(n+1))-1);
+         return (2^(n+1)-1);
     }
 ```
 
