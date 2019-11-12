@@ -23,6 +23,8 @@ For new snippets the general steps are
 ### Array
 * [Generic two array concatenation](#generic-two-array-concatenation)
 * [Generic N array concatenation](#generic-N-array-concatenation)
+* [Get Minimum value Of 2D Array](#get-minimum-value-of-2D-array)
+* [Get Maximum value Of 2D Array](#get-naximum-value-of-2D-array)
 
 ### File
 * [List directories](#list-directories)
@@ -118,6 +120,41 @@ For new snippets the general steps are
             offset += array.length;
         }
         return result;
+    }
+```
+
+[⬆ back to top](#table-of-contents)
+
+
+### Get Minimum value Of 2D Array
+
+```java
+    public static double getMinArray2D(double[][] Array) {
+        double minimum = Array[0][0];
+        for (double[] rowArray : Array) {
+	    for (double value_in_row : rowArray) {
+	         if (value_in_row < minimum)
+		     minimum = valueinrow;
+		}  
+        }
+        return minimum;
+    }
+```
+
+[⬆ back to top](#table-of-contents)
+
+### Get Maximum value Of 2D Array
+
+```java
+    public static double getMaxArray2D(double[][] Array) {
+        double maximum = Array[0][0];
+        for (double[] rowArray : Array) {
+	    for (double value_in_row : rowArray) {
+		 if (value_in_row > maximum)
+		     maximum = valueinrow;
+		}  
+        }
+        return maximum;
     }
 ```
 
