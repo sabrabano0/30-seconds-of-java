@@ -33,6 +33,7 @@ For new snippets the general steps are
 * [Zip multiple files](#zip-multiple-files)
 
 ### Math
+* [Sum Of Numbers](#Sum-Of-Numbers)
 * [Sum Power Of 2](#Sum-Power-Of-2)
 * [Fibonacci](#fibonacci)
 * [Factorial](#factorial)
@@ -223,6 +224,16 @@ For new snippets the general steps are
 [⬆ back to top](#table-of-contents)
 
 ## Math
+
+### Sum Of Numbers
+
+```java
+    public static int SumOfNumbers(int n) {
+	 return (n*(n+1)/2);
+    }
+```
+
+[⬆ back to top](#table-of-contents)
 
 ### Sum Power Of 2
 
